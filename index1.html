@@ -1,0 +1,51 @@
+<html>
+	<link rel="stylesheet" href="assets/app1.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body id="body">
+	<div id="contbox" class ="container">
+		<div class = "title">
+			<h2> TO DO LIST </h2>
+		</div>
+		<br/><br/>
+		<div id="innerdiv" style="width:90%; height:auto; margin-left:5%;">
+		<table id="tblid" style = "width:80%; height:auto;border:2px solid black;">
+			<tr>
+			<th id="name">name</th>
+			<th id="category">category</th>
+			<th id="dat"> date</th>
+			<th>complete</th>
+			</tr>
+	    </table>
+		<br/>
+		<br/>
+		<br/>
+		<div id="updateing" style ="width:150px; height:150px; border:1px solid black;background-color:white;">
+		   name :<br/><input id ="changename" type="text" style ="width:100px; height:20px; "/>
+		   category :<br/><input  id="changecatg"type="text" style ="width:100px; height:20px; "/>
+		 <br/>
+		 <br/>
+		<button type="button" onclick= > update</button>
+		</div>
+		
+		<br/>
+		<br/>
+		<hr>
+		<br/>
+		<br/>
+		Item Name:
+		<br/>
+		<input type= "text" class="fortext" id="name1"  /> 
+		<br/><br/><br/>
+		Item Category:
+		<br/>
+		<input type= "text" id="cate" class="fortext" /> 
+		<br/>
+		<br/>
+		<button type="button"  id ="addtask" onclick ="addTask()" class="fortext" > Add Items</button>
+		</div>
+	</div>
+	
+</body>
+<script src="./assets/app1.js"></script>
+</html>
